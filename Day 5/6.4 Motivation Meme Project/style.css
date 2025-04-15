@@ -1,26 +1,22 @@
 /* Add the font-family styles here after linking the fonts in your HTML */
-.font {
-    font-family: 'Courier New', Courier, monospace;
+h1 {
     font-size: 16px;
-    color: #333;
     text-transform: uppercase;
-    text-align: center;
 }
-html {
+body {
     background-color: black;
 }
-.position{
+
+.titles {
     width: 50%;
     margin-left: 25%;
     margin-top: 25%;
+    text-align: center;
+    color: white;
+    font-family: "Libre Baskerville", serif;
 }
+
 .img{
     border: 5px solid white;
     width: 100%;
-}
-p{
-    color: white;
-    font-size: 12px;
-    #text-align: center;
-    font-family: 'Courier New', Courier, monospace;
 }
